@@ -15,3 +15,14 @@ let email: string = 'abc@gmail.com';
 let greetings: string = `Hello, ${username}`;
 
 
+// BigInt
+const hugeNumber = BigInt(9007199254740991);
+console.log(hugeNumber);
+
+// Symbol
+const uniqueKey: symbol = Symbol("description");
+const obj = {
+    [uniqueKey]: "this is a unique property."
+};
+
+console.log(obj[uniqueKey]);
